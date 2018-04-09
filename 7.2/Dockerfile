@@ -61,6 +61,7 @@ RUN chown -R $SOLR_USER:$SOLR_GROUP /opt/docker-solr
 EXPOSE:
   - 8983
   - 9983
+
 WORKDIR /opt/solr
 USER $SOLR_USER
 
